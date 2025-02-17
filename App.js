@@ -1,8 +1,8 @@
 import { StyleSheet } from 'react-native';
-import Home from './src/screens/home';
+import Profile from './src/screens/profile';
 
 export default function App() {
-  return <Home />;
+  return <Profile />;
 }
 
 const styles = StyleSheet.create({
