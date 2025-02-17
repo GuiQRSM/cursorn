@@ -1,4 +1,4 @@
-import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function Profile() {
   return (
@@ -14,7 +14,6 @@ export default function Profile() {
         }}
         activeOpacity={0.6}
       >
-        <Button></Button>
         <Text style={styles.textButton}>Salvar</Text>
       </TouchableOpacity>
     </View>
